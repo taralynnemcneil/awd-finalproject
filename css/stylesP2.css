@@ -1,0 +1,136 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/* base styles */
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+    color: #807f83;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    text-transform: uppercase;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+}
+
+ul {
+    padding: 0 !important;
+}
+
+li { 
+    list-style: none;
+}
+
+/* header styles */
+header {
+    color: #f2f2f2;
+    background-color: #f2694c;
+    padding: 25px 10px 30px 30px;
+}
+
+a:hover {
+    text-decoration: none;    
+}
+
+header > 
+h1 {
+    font-size: 3.2em;    
+    line-height: 1.2em;
+    padding: 0;
+}
+
+header > 
+a {
+    padding-top: 10px;
+    padding-right: 30px !important;
+    text-align: right;
+}
+
+header > 
+a > 
+img {
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Be an informed energy consumer */
+header >
+section:first-of-type {
+    margin-top: 70px;
+}
+
+header >
+section:first-of-type >
+img {
+    width: 50px;
+    float: left;
+    padding-right: 10px;
+}
+
+header >
+section:first-of-type >
+h2 {
+    float: left;
+    margin-top: 0;
+}
+
+/* For Information and Contact */
+header >
+section:nth-of-type(2),
+header >
+section:nth-of-type(3) {
+    margin: 10px 50px;
+    line-height: 1.2em;
+}
+
+header >
+section:nth-of-type(3) > 
+p >
+em {
+    font-style: normal;
+    font-weight: bold;
+}
+
+header >
+section >
+p {
+    margin-bottom: 0;    
+}
+
+small {
+    font-size: 10px;
+}
+
+/* Twitter contact */
+header >
+section:nth-of-type(4) >
+a >
+img {
+    width: 20px;
+}
+
+header >
+section:nth-of-type(4) {
+    margin: 20px 50px 10px;
+    line-height: 1.2em;
+}
+
+header >
+section:nth-of-type(4) >
+a {
+    color: white;
+}
+
+/* Small Print */
+header >
+section:nth-of-type(5) >
+small:nth-of-type(2) {
+    margin-top: 10px;
+}
